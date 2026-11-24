@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="LM Mercadinho: praticidade, qualidade e variedade pertinho de você. Confira nossas categorias e fale com a gente.">
+  <meta name="theme-color" content="#0284c7">
+  <title>LM Mercadinho | Tudo pertinho de você</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <div class="scroll-progress" aria-hidden="true"><span></span></div>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+  
+  <header class="header" id="topo">
+    <div class="container nav-wrap">
+      <a class="brand" href="#inicio" aria-label="LM Mercadinho - início">
+        <span class="brand-mark">LM</span>
+        <span class="brand-name">LM <strong>Mercadinho</strong><small>PERTINHO DE VOCÊ</small></span>
+      </a>
+      <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="nav-menu">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav" id="nav-menu" aria-label="Navegação principal">
+        <a href="#inicio">Início</a>
+        <a href="#categorias">Categorias</a>
+        <a href="#ofertas">Prateleira de Ofertas</a>
+        <a href="#destaques">Destaques</a>
+        <a href="#sobre">Sobre nós</a>
+        <a class="nav-contact" href="#contato">Fale conosco <span>↗</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="conteudo">
+    <section class="hero" id="inicio">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <span class="eyebrow"><i></i> SEU MERCADO, MAIS PERTO</span>
+          <h1>O que você precisa,<br><em>nas prateleiras perto de você.</em></h1>
+          <p>Praticidade para sua rotina, produtos de marcas confiáveis organizados em nossas prateleiras virtuais e atendimento próximo.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#ofertas">Ver prateleira de produtos <span>→</span></a>
+            <a class="btn btn-quiet" href="#contato">Como chegar</a>
+          </div>
+          <div class="hero-note"><span class="note-icon">✓</span><span><strong>Compra prática e fácil</strong><small>Escolha seus produtos na prateleira e retire na loja.</small></span></div>
+        </div>
+        <div class="hero-visual">
+          <div class="photo-frame">
+            <img src="https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=1100&q=85" alt="Hortifruti com frutas e verduras frescas organizadas em prateleiras">
+            <div class="photo-label"><span>✦</span><div><strong>Organização e Qualidade</strong><small>Produtos de marcas selecionadas</small></div></div>
+          </div>
+          <div class="floating-card"><span class="basket">🛒</span><div><strong>Prateleiras Completas</strong><small>Tudo para sua despensa</small></div></div>
+        </div>
+      </div>
+      <div class="hero-bottom"><div class="container bottom-inner"><span>VARIEDADE</span><b>·</b><span>PRATELEIRAS ORGANIZADAS</span><b>·</b><span>MARCAS CONFIÁVEIS</span><b>·</b><span>CONFIANÇA</span></div></div>
+    </section>
+
+    <section class="categories section" id="categorias">
+      <div class="container">
+        <div class="section-heading">
+          <div><span class="eyebrow">EXPLORE NOSSAS PRATELEIRAS</span><h2>Tudo para sua casa<br><em>em um só lugar.</em></h2></div>
+          <p>Encontre os melhores produtos de marcas renomadas organizados por corredores e prateleiras virtuais.</p>
+        </div>
+        <div class="category-grid">
+          <a href="#ofertas" class="category-card" data-filter-link="HORTIFRUTI"><span class="category-icon">🥬</span><div><h3>Hortifruti</h3><p>Frutas e verduras frescas na prateleira.</p></div><span class="card-arrow">↗</span></a>
+          <a href="#ofertas" class="category-card" data-filter-link="MERCEARIA"><span class="category-icon">🥫</span><div><h3>Mercearia</h3><p>Arroz, feijão, óleos e condimentos.</p></div><span class="card-arrow">↗</span></a>
+          <a href="#ofertas" class="category-card" data-filter-link="LATICÍNIOS"><span class="category-icon">🥛</span><div><h3>Laticínios</h3><p>Leites, queijos e manteigas geladas.</p></div><span class="card-arrow">↗</span></a>
+          <a href="#ofertas" class="category-card" data-filter-link="PADARIA"><span class="category-icon">🥖</span><div><h3>Padaria & Snacks</h3><p>Pães, biscoitos e café fresquinho.</p></div><span class="card-arrow">↗</span></a>
+          <a href="#ofertas" class="category-card" data-filter-link="LIMPEZA"><span class="category-icon">🧼</span><div><h3>Limpeza</h3><p>Sabão, detergentes e cuidados.</p></div><span class="card-arrow">↗</span></a>
+          <a href="#ofertas" class="category-card" data-filter-link="BEBIDAS"><span class="category-icon">🥤</span><div><h3>Bebidas</h3><p>Refrigerantes e sucos gelados.</p></div><span class="card-arrow">↗</span></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Prateleiras de Produtos com Marcas e Fotos em Estilo Prateleira Real -->
+    <section class="offers section" id="ofertas">
+      <div class="container">
+        <div class="section-heading">
+          <div><span class="eyebrow">PRATELEIRAS DE PRODUTOS</span><h2>Nossas prateleiras<br><em>com marcas e preços.</em></h2></div>
+          <p>Visualize os produtos organizados em prateleiras virtuais de supermercado. Filtre por corredor ou clique para consultar.</p>
+        </div>
+        
+        <div class="offers-banner">
+          <span class="offer-spark">✦</span>
+          <div><strong>Prateleira Virtual Completa (20 Produtos de Marcas)</strong><small>Valores fictícios criados exclusivamente para demonstração acadêmica.</small></div>
+          <span class="offer-tag">LM • PRATELEIRA</span>
+        </div>
+
+        <div class="filter-bar" role="group" aria-label="Filtrar produtos por prateleira">
+          <button class="filter-btn active" data-category="TODOS">Todas as Prateleiras (20)</button>
+          <button class="filter-btn" data-category="MERCEARIA">Corredor Mercearia (6)</button>
+          <button class="filter-btn" data-category="HORTIFRUTI">Corredor Hortifruti (4)</button>
+          <button class="filter-btn" data-category="LATICÍNIOS">Corredor Laticínios (3)</button>
+          <button class="filter-btn" data-category="PADARIA">Corredor Padaria (2)</button>
+          <button class="filter-btn" data-category="LIMPEZA">Corredor Limpeza (3)</button>
+          <button class="filter-btn" data-category="BEBIDAS">Corredor Bebidas (2)</button>
+        </div>
+        
+        <div class="product-grid" id="product-grid">
+          <!-- MERCEARIA (6 itens) -->
+          <article class="product-card shelf-style" data-category="MERCEARIA">
+            <span class="product-label">CAMIL • MERCEARIA</span>
+            <div class="product-image shelf-shelf-bg"><img src="https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&w=700&q=80" alt="Arroz Camil Tipo 1"></div>
+            <div class="product-info"><h3>Arroz Camil Tipo 1 — 5 kg</h3><p>Grãos selecionados premium</p><div class="product-buy"><strong>R$ 24,90</strong><a href="#contato" aria-label="Consultar arroz">↗</a></div></div>
+            <div class="shelf-wood"></div>
+          </article>
+
+          <article class="product-card shelf-style" data-category="MERCEARIA">
+            <span class="product-label">KICALCHOE • MERCEARIA</span>
+            <div class="product-image shelf-shelf-bg"><img src="https://images.unsplash.com/photo-1551462147-ff29053bfc14?auto=format&fit=crop&w=700&q=80" alt="Feijão Carioca"></div>
+            <div class="product-info"><h3>Feijão Carioca Caldo Bom — 1 kg</h3><p>Safra nova, caldo grosso</p><div class="product-buy"><strong>R$ 7,49</strong><a href="#contato" aria-label="Consultar feijão">↗</a></div></div>
+            <div class="shelf-wood"></div>
+          </article>
+          
+          <article class="product-card shelf-style" data-category="MERCEARIA">
+            <span class="product-label">LIZA • MERCEARIA</span>
+            <div class="product-image shelf-shelf-bg"><img src="https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&w=700&q=80" alt="Óleo de soja Liza"></div>
+            <div class="product-info"><h3>Óleo de Soja Liza — 900 ml</h3><p>100% puro óleo vegetal</p><div class="product-buy"><strong>R$ 6,49</strong><a href="#contato" aria-label="Consultar óleo">↗</a></div></div>
+            <div class="shelf-wood"></div>
+          </article>
+
+          <article class="product-card shelf-style" data-category="MERCEARIA">
+            <span class="product-label">UNIÃO • MERCEARIA</span>
+            <div class="product-image shelf-shelf-bg"><img src="https://images.unsplash.com/photo-1581441363689-1f3c3c414635?auto=format&fit=crop&w=700&q=80" alt="Açúcar União"></div>
+            <div class="product-info"><h3>Açúcar Refinado União — 1 kg</h3><p>O mais branquinho e puro</p><div class="product-buy"><strong>R$ 4,49</strong><a href="#contato" aria-label="Consultar açúcar">↗</a></div></div>
+            <div class="shelf-wood"></div>
+          </article>
+
+          <article class="product-card shelf-style" data-category="MERCEARIA">
+            <span class="product-label">GALO • MERCEARIA</span>
+            <div class="product-image shelf-shelf-bg"><img src="https://images.unsplash.com/photo-1612929633738-8fe44f7ec841?auto=format&fit=crop&w=700&q=80" alt="Macarrão Galo"></div>
+            <div class="product-info"><h3>Macarrão Espaguete Galo — 500 g</h3><p>Massa tradicional de sêmola</p><div class="product-buy"><strong>R$ 3,89</strong><a href="#contato" aria-label="Consultar macarrão">↗</a></div></div>
+            <div class="shelf-wood"></div>
+          </article>
+
+          <article class="product-card shelf-style" data-category="MERCEARIA">
+            <span class="product-label">PILÃO • MERCEARIA</span>
+            <div class="product-image shelf-shelf-bg"><img src="https://images.unsplash.com/photo-1559525839-b184a4d698c7?auto=format&fit=crop&w=700&q=80" alt="Café Pilão"></div>
+            <div class="product-info"><h3>Café Torrado Pilão — 500 g</h3><p>Forte e encorpado</p><div class="product-buy"><strong>R$ 16,90</strong><a href="#contato" aria-label="Consultar café">↗</a></div></div>
+            <div class="shelf-wood"></div>
+          </article>
+
+          <!-- HORTIFRUTI (4 itens) -->
+          <article class="product-card shelf-style" data-category="HORTIFRUTI">
+            <span class="product-label">SELECIONADOS • HORTIFRUTI</span>
+            <div class="product-image shelf-shelf-bg"><img src="https://images.unsplash.com/photo-1518977676601-b53f82aba655?auto=format&fit=crop&w=700&q=80" alt="Batata inglesa"></div>
+            <div class="product-info"><h3>Batata Inglesa Fresca — 1 kg</h3><p>Direto do produtor local</p><div class="product-buy"><strong>R$ 7,90</strong><a href="#contato" aria-label="Consultar batata">↗</a></div></div>
+            <div class="shelf-wood"></div>
+          </article>
+
+          <article class="product-card shelf-style" data-category="HORTIFRUTI">
+            <span class="product-label">SELECIONADOS • HORTIFRUTI</span>
+            <div class="product-image shelf-shelf-bg"><img src="https://images.unsplash.com/photo-1570197788417-0e82375c9371?auto=format&fit=crop&w=700&q=80" alt="Tomate italiano"></div>
+            <div class="product-info"><h3>Tomate Italiano — 1 kg</h3><p>Perfeito para molhos e saladas</p><div class="product-buy"><strong>R$ 8,50</strong><a href="#contato" aria-label="Consultar tomate">↗</a></div></div>
+            <div class="shelf-wood"></div>
+          </article>
+
+          <article class="product-card shelf-style" data-category="HORTIFRUTI">
+            <span class="product-label">NATURAL • HORTIFRUTI</span>
+            <div class="product-image shelf-shelf-bg"><img src="https://images.unsplash.com/photo-1571771894821-ce9b6c11b08e?auto=format&fit=crop&w=700&q=80" alt="Banana prata"></div>
+            <div class="product-info"><h3>Banana Prata Dourada — 1 kg</h3><p>Doquinha e nutritiva</p><div class="product-buy"><strong>R$ 5,99</strong><a href="#contato" aria-label="Consultar banana">↗</a></div></div>
+            <div class="shelf-wood"></div>
+          </article>
+
+          <article class="product-card shelf-style" data-category="HORTIFRUTI">
+            <span class="product-label">NATURAL • HORTIFRUTI</span>
+            <div class="product-image shelf-shelf-bg"><img src="https://images.unsplash.com/photo-1560806887-1e4cd0b6cbd6?auto=format&fit=crop&w=700&q=80" alt="Maçã Gala"></div>
+            <div class="product-info"><h3>Maçã Gala Nacional — 1 kg</h3><p>Crocante e doce na medida</p><div class="product-buy"><strong>R$ 9,80</strong><a href="#contato" aria-label="Consultar maçã">↗</a></div></div>
+            <div class="shelf-wood"></div>
+          </article>
+
+          <!-- LATICÍNIOS (3 itens) -->
+          <article class="product-card shelf-style" data-category="LATICÍNIOS">
+            <span class="product-label">NESTLÉ • LATICÍNIOS</span>
+            <div class="product-image shelf-shelf-bg"><img src="https://images.unsplash.com/photo-1563636619-e9143da7973b?auto=format&fit=crop&w=700&q=80" alt="Leite Nestlé"></div>
+            <div class="product-info"><h3>Leite Integral Nestlé — 1 L</h3><p>Rico em cálcio e vitaminas</p><div class="product-buy"><strong>R$ 4,99</strong><a href="#contato" aria-label="Consultar leite">↗</a></div></div>
+            <div class="shelf-wood"></div>
+          </article>
+
+          <article class="product-card shelf-style" data-category="LATICÍNIOS">
+            <span class="product-image shelf-shelf-bg"><img src="https://images.unsplash.com/photo-1486297678162-eb2a19b0a32d?auto=format&fit=crop&w=700&q=80" alt="Queijo Mussarela"></div>
+            <span class="product-label">VIGOR • LATICÍNIOS</span>
+            <div class="product-info"><h3>Queijo Mussarela Vigor — 200 g</h3><p>Fatiado fresco na geladeira</p><div class="product-buy"><strong>R$ 9,49</strong><a href="#contato" aria-label="Consultar queijo">↗</a></div></div>
+            <div class="shelf-wood"></div>
+          </article>
+
+          <article class="product-card shelf-style" data-category="LATICÍNIOS">
+            <span class="product-label">ITAMBÉ • LATICÍNIOS</span>
+            <div class="product-image shelf-shelf-bg"><img src="https://images.unsplash.com/photo-1589985270826-4b7bb135bc9d?auto=format&fit=crop&w=700&q=80" alt="Manteiga Itambé"></div>
+            <div class="product-info"><h3>Manteiga Itambé c/ Sal — 200 g</h3><p>Feita com puro creme de leite</p><div class="product-buy"><strong>R$ 10,90</strong><a href="#contato" aria-label="Consultar manteiga">↗</a></div></div>
+            <div class="shelf-wood"></div>
+          </article>
+
+          <!-- PADARIA (2 itens) -->
+          <article class="product-card shelf-style" data-category="PADARIA">
+            <span class="product-label">ARTESANAL • PADARIA</span>
+            <div class="product-image shelf-shelf-bg"><img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=700&q=80" alt="Pão Francês"></div>
+            <div class="product-info"><h3>Pão Francês do Dia — 1 kg</h3><p>Crocante por fora, macio por dentro</p><div class="product-buy"><strong>R$ 13,90</strong><a href="#contato" aria-label="Consultar pão">↗</a></div></div>
+            <div class="shelf-wood"></div>
+          </article>
+
+          <article class="product-card shelf-style" data-category="PADARIA">
+            <span class="product-label">TRAKINAS • PADARIA</span>
+            <div class="product-image shelf-shelf-bg"><img src="https://images.unsplash.com/photo-1558961363-fa8fdf82db35?auto=format&fit=crop&w=700&q=80" alt="Biscoito Trakinas"></div>
+            <div class="product-info"><h3>Biscoito Recheado Trakinas — 130 g</h3><p>O favorito da criançada</p><div class="product-buy"><strong>R$ 2,99</strong><a href="#contato" aria-label="Consultar biscoito">↗</a></div></div>
+            <div class="shelf-wood"></div>
+          </article>
+
+          <!-- LIMPEZA (3 itens) -->
+          <article class="product-card shelf-style" data-category="LIMPEZA">
+            <span class="product-label">OMO • LIMPEZA</span>
+            <div class="product-image shelf-shelf-bg"><img src="https://images.unsplash.com/photo-1585421514284-efb74c2b69ba?auto=format&fit=crop&w=700&q=80" alt="Sabão em pó Omo"></div>
+            <div class="product-info"><h3>Sabão em Pó Omo Lavagem Perfeita — 1 kg</h3><p>Remove manchas de primeira</p><div class="product-buy"><strong>R$ 11,90</strong><a href="#contato" aria-label="Consultar sabão">↗</a></div></div>
+            <div class="shelf-wood"></div>
+          </article>
+
+          <article class="product-card shelf-style" data-category="LIMPEZA">
+            <span class="product-label">YPE • LIMPEZA</span>
+            <div class="product-image shelf-shelf-bg"><img src="https://images.unsplash.com/photo-1622560480654-d96214fdc887?auto=format&fit=crop&w=700&q=80" alt="Detergente Ypê"></div>
+            <div class="product-info"><h3>Detergente Ypê Neutro — 500 ml</h3><p>Máximo rendimento nas louças</p><div class="product-buy"><strong>R$ 2,49</strong><a href="#contato" aria-label="Consultar detergente">↗</a></div></div>
+            <div class="shelf-wood"></div>
+          </article>
+
+          <article class="product-card shelf-style" data-category="LIMPEZA">
+            <span class="product-label">NEVE • LIMPEZA</span>
+            <div class="product-image shelf-shelf-bg"><img src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=700&q=80" alt="Papel higiênico Neve"></div>
+            <div class="product-info"><h3>Papel Higiênico Neve Folha Dupla — 12 un</h3><p>Extrema maciez e cuidado</p><div class="product-buy"><strong>R$ 17,90</strong><a href="#contato" aria-label="Consultar papel">↗</a></div></div>
+            <div class="shelf-wood"></div>
+          </article>
+
+          <!-- BEBIDAS (2 itens) -->
+          <article class="product-card shelf-style" data-category="BEBIDAS">
+            <span class="product-label">COCA-COLA • BEBIDAS</span>
+            <div class="product-image shelf-shelf-bg"><img src="https://images.unsplash.com/photo-1622483767028-3f66f32aef97?auto=format&fit=crop&w=700&q=80" alt="Refrigerante Coca-Cola"></div>
+            <div class="product-info"><h3>Refrigerante Coca-Cola — 2 L</h3><p>Gelado para acompanhar a refeição</p><div class="product-buy"><strong>R$ 9,99</strong><a href="#contato" aria-label="Consultar refrigerante">↗</a></div></div>
+            <div class="shelf-wood"></div>
+          </article>
+
+          <article class="product-card shelf-style" data-category="BEBIDAS">
+            <span class="product-label">DEL VALLE • BEBIDAS</span>
+            <div class="product-image shelf-shelf-bg"><img src="https://images.unsplash.com/photo-1613478223719-2ab802602423?auto=format&fit=crop&w=700&q=80" alt="Suco Del Valle"></div>
+            <div class="product-info"><h3>Suco de Laranja Del Valle — 1 L</h3><p>100% suco integral de fruta</p><div class="product-buy"><strong>R$ 11,49</strong><a href="#contato" aria-label="Consultar suco">↗</a></div></div>
+            <div class="shelf-wood"></div>
+          </article>
+        </div>
+        <p class="price-disclaimer">* Todos os produtos, marcas e preços desta página são fictícios ou ilustrativos, utilizados exclusivamente para fins de apresentação acadêmica.</p>
+      </div>
+    </section>
+
+    <section class="highlight section" id="destaques">
+      <div class="container highlight-grid">
+        <div class="highlight-image"><img src="https://images.unsplash.com/photo-1604719312566-8912e9c8a213?auto=format&fit=crop&w=1100&q=85" alt="Corredor de supermercado com prateleiras"><span class="image-stamp">LM<br><small>MERCADINHO</small></span></div>
+        <div class="highlight-copy"><span class="eyebrow">FACILIDADE PARA VOCÊ</span><h2>Sua lista de compras<br><em>sem complicação.</em></h2><p>Quer agilizar sua rotina? Fale com nossa equipe pelo WhatsApp, consulte os produtos nas prateleiras e combine a retirada diretamente na loja.</p>
+          <ul class="check-list"><li><span>✓</span> Atendimento rápido pelo WhatsApp e telefone</li><li><span>✓</span> Separação antecipada da sua lista de prateleira</li><li><span>✓</span> Retire seus produtos na loja sem filas</li></ul>
+          <a class="btn btn-primary" href="#contato">Fale com nossa equipe <span>→</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="about section" id="sobre">
+      <div class="container about-grid">
+        <div><span class="eyebrow">MAIS QUE UM MERCADO</span><h2>Proximidade que<br><em>faz bem.</em></h2></div>
+        <div class="about-text"><p>O LM Mercadinho nasceu com uma ideia simples: deixar as compras do dia a dia mais práticas e acolhedoras. Queremos estar por perto, facilitar sua rotina e receber cada cliente com atenção.</p><p>Trabalhamos com prateleiras organizadas onde variedade, marcas de confiança e bom atendimento caminham juntos.</p><div class="about-signature">LM <span>Mercadinho</span></div></div>
+      </div>
+      <div class="container values">
+        <div><span>01</span><strong>Praticidade</strong><small>Mais facilidade para sua rotina.</small></div>
+        <div><span>02</span><strong>Variedade</strong><small>Opções para diferentes necessidades.</small></div>
+        <div><span>03</span><strong>Atendimento próximo</strong><small>Atenção em cada contato.</small></div>
+      </div>
+    </section>
+
+    <section class="contact section" id="contato">
+      <div class="container contact-panel">
+        <div class="contact-copy"><span class="eyebrow eyebrow-light">VAMOS CONVERSAR?</span><h2>Precisou? É só<br><em>chamar a gente.</em></h2><p>Tire dúvidas, consulte produtos nas prateleiras ou combine a retirada da sua compra. Nossa equipe está pronta para atender você.</p>
+          <div class="contact-actions">
+            <a class="btn btn-light" id="whatsapp-link" href="https://wa.me/5511999999999?text=Olá!%20Vim%20pelo%20site%20do%20LM%20Mercadinho%20e%20gostaria%20de%20fazer%20uma%20consulta." target="_blank" rel="noopener">Chamar no WhatsApp <span>↗</span></a>
+            <a class="phone-link" id="phone-link" href="tel:+5511999999999">☎ <span>(11) 99999-9999</span></a>
+          </div>
+        </div>
+        <div class="contact-info">
+          <div class="info-row"><span class="info-icon">⌖</span><div><small>ONDE ESTAMOS</small><strong>Rua das Palmeiras, 120</strong><p>Bairro Jardim América · São Paulo - SP</p></div></div>
+          <div class="info-row"><span class="info-icon">◷</span><div><small>HORÁRIO DE ATENDIMENTO</small><strong>Segunda a Sábado, das 8h às 20h</strong><p>Domingos e feriados, das 8h às 14h.</p></div></div>
+          <div class="info-row"><span class="info-icon">⌁</span><div><small>MODALIDADE</small><strong>Retirada na loja</strong><p>Faça contato e combine a retirada.</p></div></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-main">
+      <a class="brand brand-footer" href="#inicio"><span class="brand-mark">LM</span><span class="brand-name">LM <strong>Mercadinho</strong><small>PERTINHO DE VOCÊ</small></span></a>
+      <p>Praticidade, variedade e atendimento próximo para o seu dia a dia.</p>
+      <a href="#topo" class="back-top">Voltar ao topo ↑</a>
+    </div>
+    <div class="container footer-bottom"><span>© <span id="year"></span> LM Mercadinho. Todos os direitos reservados.</span><span>Feito para estar mais perto de você.</span></div>
+  </footer>
+</body>
+</html>

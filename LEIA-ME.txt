@@ -1,0 +1,13 @@
+LM MERCADINHO — PROJETO FINAL (VERSÃO 3.0 COM PRATELEIRAS REAIS E MARCAS)
+==========================================================================
+
+COMO ABRIR
+1. Extraia o arquivo ZIP.
+2. Abra a pasta LM-Mercadinho-v3.
+3. Clique duas vezes em index.html para abrir no navegador.
+
+MELHORIAS DESTA VERSÃO
+- Produtos organizados em prateleiras reais com base de madeira estilizada nos cards.
+- Nomes de marcas famosas em cada produto (Camil, Kicalchoe, Liza, União, Galo, Pilão, Nestlé, Vigor, Itambé, Trakinas, Omo, Ypê, Neve, Coca-Cola, Del Valle).
+- Filtro interativo por corredor de prateleira.
+- Layout 100% responsivo.
